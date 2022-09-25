@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <style>
+      input {
+        all: unset;
+        padding: 10px;
+        border: 1px solid rgba(219, 219, 219, 0.5);
+        margin-top: 10px;
+        border-radius: 5px;
+      }
+      input:focus,
+      input:active {
+        border: 1px solid rgba(38, 38, 38, 0.4);
+      }
+      * {
+        font-family: -apple-system, "system-ui", "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body style="background-color: #fafafa; height: 100vh; margin: 0px">
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+      "
+    >
+      <div
+        class="left"
+        style="
+          height: 634px;
+          width: 434px;
+          background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+        "
+      >
+        <img
+          src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1.png/fdfe239b7c9f.png"
+          alt="main-screen-photo"
+          style="position: relative; top: 27px; left: 155px"
+        />
+      </div>
+      <div class="right">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: stretch;
+            width: 348px;
+            background-color: white;
+            border: 1px solid rgb(219, 219, 219);
+            font-family: -apple-system;
+            padding: 40px;
+            margin: 20px;
+          "
+        >
+          <img
+            src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
+            style="padding: 0px 70px 30px 70px"
+            alt="logo"
+          />
+          <input
+            type="text"
+            placeholder="Teléfono, usuario o correo electrónico"
+          />
+          <input type="password" placeholder="Contraseña" />
+          <div
+            style="
+              background-color: rgba(0, 149, 246, 0.3);
+              text-align: center;
+              color: white;
+              padding: 10px;
+              margin-top: 10px;
+              border-radius: 5px;
+            "
+          >
+            Entrar
+          </div>
+          <div
+            style="
+              display: flex;
+              margin-top: 30px;
+              flex-direction: row;
+              align-items: center;
+            "
+          >
+            <div
+              style="
+                background-color: rgb(219, 219, 219);
+                height: 1px;
+                width: 148px;
+              "
+            ></div>
+            <div
+              style="font-weight: 600; color: grey; padding: 0px 20px 0px 20px"
+            >
+              O
+            </div>
+            <div
+              style="
+                background-color: rgb(219, 219, 219);
+                height: 1px;
+                width: 148px;
+              "
+            ></div>
+          </div>
+          <div>
+            <span></span>
+            <span>Iniciar sesión con Facebook</span>
+            <span>¿Has olvidado tu contraseña?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
